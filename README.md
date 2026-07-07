@@ -19,10 +19,6 @@ This site exists to make that combination impossible to miss, and to show a thir
 
 **Skills, community, and contact.** A full technical skill set, my ongoing mentorship through the Andela Learning Community, and direct ways to reach me.
 
-## Built with
-
-No frameworks, no build step, no dependencies to install. This is a single HTML file with plain CSS and a small amount of vanilla JavaScript for the mobile nav and scroll animations. Fonts are pulled from Google Fonts (Space Grotesk and Inter) and icons from Font Awesome, both loaded from a CDN, so the whole thing loads fast and can be hosted anywhere that serves static files.
-
 ## A few numbers
 
 * 8+ years as a software engineer, still shipping production code today
