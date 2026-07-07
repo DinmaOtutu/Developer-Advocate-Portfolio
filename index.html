@@ -3,25 +3,25 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Chidinma Otutu — Senior Software Engineer & Developer Advocate</title>
-<meta name="description" content="Chidinma Otutu — Senior Software Engineer & Developer Advocate specializing in AI-powered developer experience, cloud-native systems, and technical content." />
+<title>Chidinma Otutu | Senior Software Engineer & Developer Advocate</title>
+<meta name="description" content="Chidinma Otutu, Senior Software Engineer & Developer Advocate specializing in AI-powered developer experience, cloud-native systems, and technical content." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <style>
   :root{
-    --bg: #08090d;
-    --bg-alt: #0e1017;
-    --card: #11131c;
-    --card-border: #1f2330;
-    --text: #eef0f6;
-    --text-dim: #9aa1b4;
-    --text-dimmer: #676e82;
-    --accent: #7c5cff;
-    --accent2: #33d6c0;
-    --accent3: #ff6b9d;
-    --gradient: linear-gradient(120deg, #7c5cff 0%, #33d6c0 100%);
-    --gradient2: linear-gradient(120deg, #ff6b9d 0%, #7c5cff 100%);
+    --bg: #fbf5ec;
+    --bg-alt: #f5ecdd;
+    --card: #ffffff;
+    --card-border: #ecdfc9;
+    --text: #2c2115;
+    --text-dim: #71604c;
+    --text-dimmer: #a3907a;
+    --accent: #d9662f;
+    --accent2: #e2a13b;
+    --accent3: #c2557a;
+    --gradient: linear-gradient(120deg, #d9662f 0%, #e2a13b 100%);
+    --gradient2: linear-gradient(120deg, #c2557a 0%, #d9662f 100%);
     --max-w: 1120px;
   }
   *{ box-sizing: border-box; margin:0; padding:0; }
@@ -40,9 +40,9 @@
   .bg-glow{
     position: fixed; inset: 0; z-index: 0; pointer-events: none;
     background:
-      radial-gradient(600px circle at 15% 10%, rgba(124,92,255,0.14), transparent 60%),
-      radial-gradient(500px circle at 85% 25%, rgba(51,214,192,0.10), transparent 60%),
-      radial-gradient(700px circle at 50% 90%, rgba(255,107,157,0.08), transparent 60%);
+      radial-gradient(600px circle at 15% 10%, rgba(217,102,47,0.10), transparent 60%),
+      radial-gradient(500px circle at 85% 25%, rgba(226,161,59,0.10), transparent 60%),
+      radial-gradient(700px circle at 50% 90%, rgba(194,85,122,0.07), transparent 60%);
   }
   main{ position: relative; z-index: 1; }
 
@@ -50,7 +50,7 @@
   nav{
     position: sticky; top: 0; z-index: 50;
     backdrop-filter: blur(14px);
-    background: rgba(8,9,13,0.75);
+    background: rgba(251,245,236,0.82);
     border-bottom: 1px solid var(--card-border);
   }
   nav .wrap{ display:flex; align-items:center; justify-content:space-between; padding: 16px 24px; }
@@ -59,7 +59,7 @@
   .nav-links{ display:flex; gap: 28px; font-size: 0.88rem; color: var(--text-dim); }
   .nav-links a:hover{ color: var(--text); }
   .nav-cta{
-    background: var(--gradient); color:#050608; font-weight:600; font-size:0.82rem;
+    background: var(--gradient); color:#2c1b0f; font-weight:600; font-size:0.82rem;
     padding: 9px 18px; border-radius: 100px;
   }
   .nav-toggle{ display:none; background:none; border:none; color:var(--text); font-size:1.3rem; cursor:pointer; }
@@ -73,8 +73,8 @@
   .eyebrow{
     display:inline-flex; align-items:center; gap:8px;
     font-size: 0.78rem; font-weight:600; letter-spacing: 0.06em; text-transform: uppercase;
-    color: var(--accent2); background: rgba(51,214,192,0.08);
-    border: 1px solid rgba(51,214,192,0.25); padding: 6px 14px; border-radius: 100px;
+    color: var(--accent); background: rgba(226,161,59,0.12);
+    border: 1px solid rgba(226,161,59,0.35); padding: 6px 14px; border-radius: 100px;
     margin-bottom: 24px;
   }
   .eyebrow i{ font-size: 0.7rem; }
@@ -93,9 +93,9 @@
     display:inline-flex; align-items:center; gap:9px; padding: 13px 24px; border-radius: 10px;
     font-weight:600; font-size:0.92rem; transition: transform .15s ease, box-shadow .15s ease;
   }
-  .btn-primary{ background: var(--gradient); color:#050608; }
-  .btn-primary:hover{ transform: translateY(-2px); box-shadow: 0 8px 26px rgba(124,92,255,0.35); }
-  .btn-ghost{ border: 1px solid var(--card-border); color: var(--text); background: rgba(255,255,255,0.02); }
+  .btn-primary{ background: var(--gradient); color:#2c1b0f; }
+  .btn-primary:hover{ transform: translateY(-2px); box-shadow: 0 8px 26px rgba(217,102,47,0.30); }
+  .btn-ghost{ border: 1px solid var(--card-border); color: var(--text); background: rgba(44,33,21,0.03); }
   .btn-ghost:hover{ border-color: var(--accent); transform: translateY(-2px); }
 
   .hero-meta{
@@ -120,14 +120,14 @@
     background: var(--card); border: 1px solid var(--card-border); border-radius: 16px; padding: 30px 26px;
     transition: transform .2s ease, border-color .2s ease;
   }
-  .pillar:hover{ transform: translateY(-4px); border-color: rgba(124,92,255,0.4); }
+  .pillar:hover{ transform: translateY(-4px); border-color: rgba(217,102,47,0.4); }
   .pillar .icon{
     width: 46px; height:46px; border-radius: 12px; display:flex; align-items:center; justify-content:center;
     font-size: 1.15rem; margin-bottom: 20px;
   }
-  .pillar:nth-child(1) .icon{ background: rgba(124,92,255,0.14); color: var(--accent); }
-  .pillar:nth-child(2) .icon{ background: rgba(51,214,192,0.14); color: var(--accent2); }
-  .pillar:nth-child(3) .icon{ background: rgba(255,107,157,0.14); color: var(--accent3); }
+  .pillar:nth-child(1) .icon{ background: rgba(217,102,47,0.14); color: var(--accent); }
+  .pillar:nth-child(2) .icon{ background: rgba(226,161,59,0.16); color: var(--accent2); }
+  .pillar:nth-child(3) .icon{ background: rgba(194,85,122,0.14); color: var(--accent3); }
   .pillar h3{ font-size: 1.15rem; margin-bottom: 10px; }
   .pillar p{ color: var(--text-dim); font-size: 0.94rem; }
   .pillar ul{ margin-top: 14px; padding-left: 18px; color: var(--text-dim); font-size: 0.88rem; }
@@ -153,7 +153,7 @@
   .tl-item p.desc{ color: var(--text-dim); font-size: 0.95rem; margin-bottom: 10px; max-width: 720px; }
   .tl-tags{ display:flex; flex-wrap:wrap; gap: 8px; }
   .tl-tags span{
-    font-size: 0.76rem; color: var(--text-dim); background: rgba(255,255,255,0.04);
+    font-size: 0.76rem; color: var(--text-dim); background: rgba(44,33,21,0.04);
     border: 1px solid var(--card-border); padding: 4px 10px; border-radius: 100px;
   }
 
@@ -189,8 +189,8 @@
     font-size: 1.2rem; flex-shrink:0;
   }
   .channel-card.yt .cicon{ background: rgba(255,0,0,0.12); color:#ff4d4d; }
-  .channel-card.ig .cicon{ background: rgba(255,107,157,0.14); color: var(--accent3); }
-  .channel-card.md .cicon{ background: rgba(255,255,255,0.08); color: #fff; }
+  .channel-card.ig .cicon{ background: rgba(194,85,122,0.14); color: var(--accent3); }
+  .channel-card.md .cicon{ background: rgba(44,33,21,0.06); color: var(--text); }
   .channel-card h4{ font-size: 0.95rem; margin-bottom: 3px; }
   .channel-card span{ font-size: 0.8rem; color: var(--text-dimmer); }
   .channel-card i.fa-arrow-up-right{ margin-left:auto; color: var(--text-dimmer); font-size: 0.85rem; }
@@ -199,7 +199,7 @@
   .ai-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
   @media (max-width: 900px){ .ai-grid{ grid-template-columns: 1fr; } }
   .ai-card{
-    background: linear-gradient(180deg, rgba(124,92,255,0.06), rgba(51,214,192,0.03));
+    background: linear-gradient(180deg, rgba(217,102,47,0.07), rgba(226,161,59,0.04));
     border: 1px solid var(--card-border); border-radius: 16px; padding: 28px 24px;
   }
   .ai-card .num{ font-family:'Space Grotesk'; font-weight:700; font-size: 0.85rem; color: var(--accent2); margin-bottom: 14px; }
@@ -261,12 +261,12 @@
   <!-- HERO -->
   <header class="hero">
     <div class="wrap">
-      <div class="eyebrow"><i class="fa-solid fa-circle"></i> Berlin, Germany — Open to Developer Advocate roles</div>
+      <div class="eyebrow"><i class="fa-solid fa-circle"></i> Berlin, Germany · Open to Developer Advocate roles</div>
       <h1>Senior Software Engineer &amp; Developer Advocate for the <span class="grad">AI era.</span></h1>
       <p class="lead">
         I build production systems, then I turn them into content developers actually read, watch, and use.
         8+ years shipping scalable backend systems, 5+ years creating technical content and video for developer
-        audiences, and hands-on fluency building and explaining with AI tools — the rare combination that
+        audiences, and hands-on fluency building and explaining with AI tools: the rare combination that
         turns a Developer Advocate into an engineering team's most credible voice.
       </p>
       <div class="hero-actions">
@@ -288,7 +288,7 @@
       <div class="section-tag">Why this profile is rare</div>
       <h2 class="section-title fade-in">One person, three skill sets most companies hire separately</h2>
       <p class="section-lead fade-in">
-        Developer Advocacy works best when the person on stage or on camera has actually shipped the hard parts —
+        Developer Advocacy works best when the person on stage or on camera has actually shipped the hard parts:
         distributed systems, gnarly APIs, real production incidents. I've done that, then spent years learning how
         to explain it well, on camera and in writing, and now I use AI daily to do both faster.
       </p>
@@ -296,7 +296,7 @@
         <div class="pillar fade-in">
           <div class="icon"><i class="fa-solid fa-code"></i></div>
           <h3>Senior Engineering Depth</h3>
-          <p>Not a "recovering engineer" — currently shipping. I design the systems I later teach developers about.</p>
+          <p>Not a "recovering engineer." Currently shipping. I design the systems I later teach developers about.</p>
           <ul>
             <li>Node.js, TypeScript, GraphQL, AWS Lambda, serverless architecture</li>
             <li>Cut API latency 180ms → 54ms with gRPC + Protocol Buffers</li>
@@ -306,17 +306,17 @@
         <div class="pillar fade-in">
           <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
           <h3>Developer Advocacy & Content</h3>
-          <p>Former Developer Advocate at TimescaleDB (now TigerData) — this isn't a career pivot, it's a return.</p>
+          <p>Former Developer Advocate at TimescaleDB (now TigerData): this isn't a career pivot, it's a return.</p>
           <ul>
             <li>50+ technical articles, 100K+ readers across Medium & Dev.to</li>
-            <li>Hosted "Sessions with Dinma" — a YouTube interview series with engineers & product users</li>
+            <li>Hosted "Sessions with Dinma," a YouTube interview series with engineers & product users</li>
             <li>Ran live demos, workshops, and community forums for a 100K+ monthly-user product</li>
           </ul>
         </div>
         <div class="pillar fade-in">
           <div class="icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
           <h3>AI, Practically Applied</h3>
-          <p>I don't just talk about AI — I build with it, create with it, and teach other developers how to do the same.</p>
+          <p>I don't just talk about AI. I build with it, create with it, and teach other developers how to do the same.</p>
           <ul>
             <li>AI-assisted engineering: LLM-powered tooling in real dev workflows</li>
             <li>AI-driven content pipelines for scripting, research & production</li>
@@ -339,7 +339,7 @@
           <div class="tl-head">
             <span class="tl-role">Senior Fullstack Engineer</span>
             <span class="tl-org">Deed</span>
-            <span class="tl-date">07/2023 — Present · Berlin</span>
+            <span class="tl-date">07/2023 to Present · Berlin</span>
           </div>
           <p class="desc">Designing scalable API integrations connecting internal services with external platforms using Node.js, GraphQL (AppSync), and AWS Lambda. Built secure OAuth2/SFTP connectors, improving integration reliability by 80%, and led adoption of Jest testing to reach 80% coverage on core modules.</p>
           <div class="tl-tags"><span>TypeScript</span><span>GraphQL</span><span>AWS Lambda</span><span>Event-driven architecture</span><span>Datadog</span></div>
@@ -349,9 +349,9 @@
           <div class="tl-head">
             <span class="tl-role">Technical Writer / Developer</span>
             <span class="tl-org">Freelance</span>
-            <span class="tl-date">10/2023 — Present · Berlin</span>
+            <span class="tl-date">10/2023 to Present · Berlin</span>
           </div>
-          <p class="desc">Publishing in-depth tutorials on Node.js, AWS, and serverless architecture — reaching 100K+ readers across Medium and Dev.to. Mentoring beginner developers and answering technical questions across community platforms in JavaScript, AWS, and Express.js.</p>
+          <p class="desc">Publishing in-depth tutorials on Node.js, AWS, and serverless architecture, reaching 100K+ readers across Medium and Dev.to. Mentoring beginner developers and answering technical questions across community platforms in JavaScript, AWS, and Express.js.</p>
           <div class="tl-tags"><span>Technical writing</span><span>Community mentoring</span><span>SEO</span><span>Developer education</span></div>
         </div>
 
@@ -359,7 +359,7 @@
           <div class="tl-head">
             <span class="tl-role">Developer Advocate</span>
             <span class="tl-org">TimescaleDB (now TigerData)</span>
-            <span class="tl-date">05/2021 — 09/2023 · Berlin</span>
+            <span class="tl-date">05/2021 to 09/2023 · Berlin</span>
           </div>
           <p class="desc">Translated developer feedback from Slack and GitHub into roadmap priorities for a product with 100K+ monthly users. Created blog posts, YouTube tutorials, and live demo repos (Grafana + AWS Lambda integrations) that drove 50K+ combined views. Hosted "Sessions with Dinma," a YouTube interview series with colleagues and product users, and contributed directly to the open-source project on GitHub.</p>
           <div class="tl-tags"><span>Developer relations</span><span>YouTube production</span><span>Technical writing</span><span>Public speaking</span><span>Open source</span></div>
@@ -369,7 +369,7 @@
           <div class="tl-head">
             <span class="tl-role">Senior Fullstack / Software Engineer</span>
             <span class="tl-org">Choco Communications GmbH</span>
-            <span class="tl-date">01/2020 — 04/2023 · Berlin</span>
+            <span class="tl-date">01/2020 to 04/2023 · Berlin</span>
           </div>
           <p class="desc">Reduced service-to-service latency from 180ms to 54ms using HTTP API Gateway with gRPC. Led the migration from synchronous APIs to a pure serverless, event-driven architecture, improving quality of service by 40%. Cut code duplication by 60% through shared monorepo libraries and achieved 100% test coverage across backend services.</p>
           <div class="tl-tags"><span>gRPC</span><span>DynamoDB</span><span>Event-driven systems</span><span>Cost optimization</span><span>CI/CD</span></div>
@@ -379,7 +379,7 @@
           <div class="tl-head">
             <span class="tl-role">Senior Software Engineer</span>
             <span class="tl-org">Schoolable</span>
-            <span class="tl-date">06/2019 — 01/2020 · Lagos</span>
+            <span class="tl-date">06/2019 to 01/2020 · Lagos</span>
           </div>
           <p class="desc">Built a fintech microservice application enabling parents to plan, save, and get tuition loans, while giving schools reliable, reconciled payment tracking.</p>
           <div class="tl-tags"><span>Node.js</span><span>MongoDB</span><span>AWS SNS/SQS</span><span>Fintech</span></div>
@@ -389,7 +389,7 @@
           <div class="tl-head">
             <span class="tl-role">Software Engineer</span>
             <span class="tl-org">Dev Center, Paymaster, Andela &amp; earlier roles</span>
-            <span class="tl-date">2017 — 2019 · Lagos</span>
+            <span class="tl-date">2017 to 2019 · Lagos</span>
           </div>
           <p class="desc">Built server-side systems for consumer fintech and social apps (including a peer-to-peer payments app and bidding platform), starting a foundation of full-stack engineering across JavaScript, Express.js, and relational + NoSQL databases.</p>
           <div class="tl-tags"><span>Express.js</span><span>PostgreSQL</span><span>MongoDB</span><span>RabbitMQ</span></div>
@@ -456,7 +456,7 @@
         </a>
         <a class="channel-card md fade-in" href="https://medium.com/@dinma" target="_blank" rel="noopener">
           <div class="cicon"><i class="fa-brands fa-medium"></i></div>
-          <div><h4>Medium</h4><span>@dinma — technical writing</span></div>
+          <div><h4>Medium</h4><span>@dinma, technical writing</span></div>
           <i class="fa-solid fa-arrow-up-right"></i>
         </a>
       </div>
@@ -467,7 +467,7 @@
   <section id="ai">
     <div class="wrap">
       <div class="section-tag">AI, done properly</div>
-      <h2 class="section-title fade-in">How I actually use AI — not just talk about it</h2>
+      <h2 class="section-title fade-in">How I actually use AI, not just talk about it</h2>
       <p class="section-lead fade-in">
         Developer Advocate roles at AI companies need someone who can speak credibly to engineers about AI tooling,
         not just repeat marketing language. Here's where that credibility comes from.
@@ -476,17 +476,17 @@
         <div class="ai-card fade-in">
           <div class="num">01</div>
           <h3>AI-assisted engineering</h3>
-          <p>I build with LLM-powered tools daily — using AI coding assistants and LLM APIs as part of my real development workflow to design, debug, and ship faster, the same way the developers I'd be advocating to are starting to work.</p>
+          <p>I build with LLM-powered tools daily, using AI coding assistants and LLM APIs as part of my real development workflow to design, debug, and ship faster, the same way the developers I'd be advocating to are starting to work.</p>
         </div>
         <div class="ai-card fade-in">
           <div class="num">02</div>
           <h3>AI-powered content creation</h3>
-          <p>I run AI-assisted pipelines for research, scripting, and production across my content channels — turning ideas into published tutorials and videos faster without sacrificing quality, a workflow I can bring directly into a DevRel content engine.</p>
+          <p>I run AI-assisted pipelines for research, scripting, and production across my content channels, turning ideas into published tutorials and videos faster without sacrificing quality, a workflow I can bring directly into a DevRel content engine.</p>
         </div>
         <div class="ai-card fade-in">
           <div class="num">03</div>
           <h3>AI developer education</h3>
-          <p>My background is literally translating complex backend and infrastructure concepts into content developers understand. I bring the same clarity to AI and LLM concepts — the exact skill an AI company needs from its Developer Advocate.</p>
+          <p>My background is literally translating complex backend and infrastructure concepts into content developers understand. I bring the same clarity to AI and LLM concepts: the exact skill an AI company needs from its Developer Advocate.</p>
         </div>
       </div>
     </div>
@@ -588,7 +588,7 @@
       links.style.left = '0';
       links.style.right = '0';
       links.style.flexDirection = 'column';
-      links.style.background = 'rgba(8,9,13,0.98)';
+      links.style.background = 'rgba(251,245,236,0.98)';
       links.style.padding = '20px 24px';
       links.style.borderBottom = '1px solid var(--card-border)';
     });
